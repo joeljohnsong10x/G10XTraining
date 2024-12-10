@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<head>
+    <title>H-E-B Bookstore</title>
+    <style>
+        /* Style the navigation bar */
+        nav {
+            background-color: #e81e0f;
+            overflow: hidden;
+        }
+
+        /* Navigation links */
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        /* Change the color of the links when hovering */
+        nav a:hover {
+            background-color: #b32a20;
+            color: white;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0px;
+        }
+
+        .book-entry{
+            background-color: rgb(230, 236, 234);
+            border-radius: 8px;
+            padding: 5px;
+            margin: 12px;
+        }
+
+        .book-entry h3{
+            color: #e81e0f;
+        }
+
+        .content{
+            background-color: rgb(255, 255, 255);
+            border-radius: 8px;
+            padding: 1px;
+        }
+
+        summary{
+            color: rgb(255, 255, 255);
+            background-color: #e81e0f;
+            border-radius: 8px;
+            padding: 7px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+
+<body style="font-family: 'Gotham', sans-serif;">
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="StaticHomePage.html">Home</a>
+        <a href="catalog.html">Catalog</a>
+        <a href="contact.html">Contact Us</a>
+        <img src="logo.png" alt="Logo" height=42 style="float: right;">
+    </nav>
+
+    <h2>Books & Magazines</h2>
+    <ul>
+        <li class="book-entry">
+            <h3>"The Great Adventure"</h3>
+            <p><strong>Author:</strong> Jane Doe</p>
+            <p><strong>Publication Date:</strong> March 12, 2022</p>
+            <p><strong>Description:</strong> A gripping tale of survival and courage, following a group of explorers as they navigate the wild terrains of an unknown world.</p>
+            <details> <!--Disclosure Widget-->
+                <summary>More Details</summary>
+                <div class="content">
+                    <p><strong>Genre:</strong> Adventure, Fiction</p>
+                    <p><strong>ISBN:</strong> 978-1234567890</p>
+                    <p><strong>Pages:</strong> 350</p>
+                    <p><strong>Publisher:</strong> Adventure Press</p>
+                </div>
+            </details>
+        </li>
+
+        <li class="book-entry">
+            <h3>"Mystery in the Shadows"</h3>
+            <p><strong>Author:</strong> John Smith</p>
+            <p><strong>Publication Date:</strong> July 5, 2021</p>
+            <p><strong>Description:</strong> A thrilling mystery novel that follows a detective unraveling secrets buried in the city's darkest corners.</p>
+            <details>
+                <summary>More Details</summary>
+                <div class="content">
+                    <p><strong>Genre:</strong> Mystery, Crime</p>
+                    <p><strong>ISBN:</strong> 978-0987654321</p>
+                    <p><strong>Pages:</strong> 420</p>
+                    <p><strong>Publisher:</strong> CrimeWave Publishing</p>
+                </div>
+            </details>
+        </li>
+
+        <li class="book-entry">
+            <h3>"A Journey Through Time"</h3>
+            <p><strong>Author:</strong> Alice Williams</p>
+            <p><strong>Publication Date:</strong> October 19, 2020</p>
+            <p><strong>Description:</strong> This science fiction novel explores time travel and the impact it has on relationships and history.</p>
+            <details>
+                <summary>More Details</summary>
+                <div class="content">
+                    <p><strong>Genre:</strong> Science Fiction, Fantasy</p>
+                    <p><strong>ISBN:</strong> 978-5678901234</p>
+                    <p><strong>Pages:</strong> 500</p>
+                    <p><strong>Publisher:</strong> TimeWaves Books</p>
+                </div>
+            </details>
+        </li>
+    </ul>
+
+</body>
+</html>
