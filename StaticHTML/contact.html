@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+    <title>H-E-B Bookstore</title>
+    <style>
+        /* Style the navigation bar */
+        nav {
+            background-color: #e81e0f;
+            overflow: hidden;
+        }
+
+        /* Navigation links */
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        /* Change the color of the links when hovering */
+        nav a:hover {
+            background-color: #b32a20;
+            color: white;
+        }
+
+        h1 {
+            color: #e81e0f;
+            text-align: center;
+        }
+
+        .container {
+            width: 60%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #e81e0f;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 12px;
+            border-radius: 5px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #b32a20;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        .contact-info a {
+            color: #e81e0f;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+
+
+<body style="font-family: 'Gotham', sans-serif;">
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="StaticHomePage.html">Home</a>
+        <a href="catalog.html">Catalog</a>
+        <a href="contact.html">Contact Us</a>
+        <img src="logo.png" alt="Logo" height=42 style="float: right;">
+    </nav>
+
+    <h1>Contact Us</h1>
+
+    <div class="container">
+        <form>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required placeholder="Enter the subject">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required placeholder="Enter your message"></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+
+    <div class="contact-info">
+        <h2>Other Ways to Reach Us</h2>
+        <p><strong>Email:</strong> <a href="mailto:example@heb.com">example@heb.com</a></p>
+        <p><strong>Phone:</strong> +1 234 567 890</p>
+        <p><strong>Address:</strong> 645 S Flores St., San Antonio, Texas, 78204</p>
+    </div>
+
+</body>
+</html>
