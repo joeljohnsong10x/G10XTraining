@@ -1,18 +1,17 @@
-# H-E-B Bookstore Website
+# Bookstore Website
 
-This is a simple website for H-E-B Bookstore, designed to showcase a bookstore with a navigation bar, homepage with a welcoming message, and a contact section at the footer.
+This is a simple website for a Bookstore, designed to showcase a bookstore with a navigation bar, homepage with a welcoming message, and a contact section at the footer.
 
 ## Table of Contents
 
 1. [Overview](#overview)
 2. [Features](#features)
 3. [Installation](#installation)
-4. [File Structure](#file-structure)
-5. [License](#license)
+4. [File Requirements](#installation)
 
 ## Overview
 
-The H-E-B Bookstore website includes the following sections:
+The Bookstore website includes the following sections:
 
 - **Navigation Bar**: Links to the homepage, catalog, and contact page with a logo image.
 - **Header Section**: A welcoming image and text that invites users to explore the bookstore.
@@ -31,18 +30,16 @@ The H-E-B Bookstore website includes the following sections:
 To view the website, follow these steps:
 
 1. Clone or download the repository to your local machine.
-2. Open the `index.html` file in a web browser to view the homepage.
+2. Open the `StaticHomePage.html` file in a web browser to view the homepage.
 
 ### File Requirements
 Ensure that the following files are placed in the correct directory:
 
-- `index.html` (or `StaticHomePage.html`)
+- `StaticHomePage.html`
 - `catalog.html`
 - `contact.html`
 - `logo.png` (for the navigation bar logo)
 - `rusticBooks.jpg` (for the header image)
 
 You may need to update the `href` links to match your local file structure.
-
-## File Structure
 
