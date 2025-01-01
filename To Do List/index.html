@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To Do List App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="todo-app">
+        <h2>To Do List</h2>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Add To Do Item">
+            <button onclick="addTask()">Add</button>
+        </div>
+        <div>
+            <ul id="list-container"></ul>
+        </div>
+        <div class="bottom-controls">
+            <select id="color-selector" onchange="changeBackgroundColor()">
+                <option value="lightpink">Light Pink</option>
+                <option value="lightblue">Light Blue</option>
+                <option value="lightgreen">Light Green</option>
+                <option value="lightyellow">Light Yellow</option>
+                <option value="lavender">Lavender</option>
+                <option value="peachpuff">Peach Puff</option>
+                <option value="mintcream">Mint Cream</option>
+            </select>
+            <button onclick="clearAllTasks()">Clear All</button>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
